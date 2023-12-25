@@ -67,9 +67,7 @@ public class App {
 		Graph graph = new Graph();
 
 		for (int i = 0; i < numVertices; i++) {
-			System.out.print("Enter individual time for vertex " + i + ": ");
-			double indivTime = scanner.nextDouble();
-			graph.addVertex(indivTime);
+			graph.addVertex();
 		}
 
 		System.out.println("Enter the edges in the format: source destination weight");
